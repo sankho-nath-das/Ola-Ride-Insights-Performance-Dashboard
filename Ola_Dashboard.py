@@ -21,7 +21,7 @@ def format_indian(num):
 # --------------------------
 # LOAD DATA
 # --------------------------
-df = pd.read_csv("D:/STUDY MATERIAL/PROJECT/OLA PROJECT/Notebook/ola_data_clean.csv")
+df = pd.read_csv("Ola_data_Clean.csv")
 
 df['Date'] = pd.to_datetime(df['Date'])
 df['Revenue'] = pd.to_numeric(df['Revenue'], errors='coerce')
